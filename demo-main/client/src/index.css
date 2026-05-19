@@ -1,0 +1,26 @@
+body {
+  background-color: #1a1a1a;
+  color: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  border: none;
+}
+
+.btn-danger {
+  background-color: #9f1239;
+  border-color: #9f1239;
+}
+
+.btn-danger:hover {
+  background-color: #be123c;
+}
+
+.navbar {
+  border-bottom: 4px solid #fbbf24;
+}
+
+.badge {
+  font-size: 0.9em;
+}
