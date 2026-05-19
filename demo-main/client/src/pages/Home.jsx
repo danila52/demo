@@ -6,16 +6,16 @@ import 'swiper/css/navigation';
 
 function Home() {
   const halls = [
-    { title: "Большой банкетный зал", img: "https://picsum.photos/id/1015/800/500" },
-    { title: "ресторан", img: "https://picsum.photos/id/133/800/500" },
-    { title: "Закрытая веранда", img: "https://picsum.photos/id/201/800/500" },
-    { title: "Летняя веранда", img: "https://picsum.photos/id/251/800/500" }
+    { title: "Большой банкетный зал", img: "" },
+    { title: "ресторан", img: "" },
+    { title: "Закрытая веранда", img: "" },
+    { title: "Летняя веранда", img: "" }
   ];
 
   return (
     <div>
       {/* Hero */}
-      <div className="bg-dark text-white py-5 text-center" style={{ background: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://picsum.photos/id/1015/1920/1080")', backgroundSize: 'cover' }}>
+      <div className="bg-dark text-white py-5 text-center" style={{ background: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("")', backgroundSize: 'cover' }}>
         <div className="container py-5">
           <h1 className="display-3 fw-bold">Банкетам.Нет</h1>
           <p className="lead fs-3">Лучшие площадки для вашего торжества</p>
